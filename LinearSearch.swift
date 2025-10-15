@@ -37,8 +37,9 @@ func search(_ numbers: [Int], for target: Int) -> Int {
 }
 
 // Main execution loop
+let data = generateRandomArray()
 while true {
-    let data = generateRandomArray()
+    
     print("Random array: \(data)")
     print("Enter a number to search for (or 'q' to quit): ", terminator: "")
 
